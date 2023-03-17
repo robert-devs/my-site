@@ -26,7 +26,7 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  width: 450px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -35,6 +35,8 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  color: #23a6f0;
+  margin-top: 12px;
 `
 
 export const HeaderThree = styled.h3`
@@ -84,10 +86,10 @@ export const UtilityList = styled.ul`
 `
 
 export const ExternalLinks = styled.a`
-  color: #d4c0c0;
+  color: white;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
+  background: #05a1e6;
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
@@ -101,6 +103,6 @@ export const TagList = styled.ul`
   padding: 2rem;
 `
 export const Tag = styled.li`
-  color: #d8bfbf;
+  color: #fa6f4c;
   font-size: 1.5rem;
 `

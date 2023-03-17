@@ -39,12 +39,26 @@ export const projects = [
     visit: 'https://google.com',
     id: 3,
   },
+  {
+    title: 'Recipes',
+    description:
+      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
+    image: '/images/recipes.jpg',
+    tags: ['React', 'Firebase'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 3,
+  },
 ]
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey' },
-  { year: 2018, text: 'Worked as a freelance developer' },
-  { year: 2019, text: 'Founded JavaScript Mastery' },
-  { year: 2020, text: 'Shared my projects with the world' },
-  { year: 2021, text: 'Started my own platform' },
+  { year: 2021, text: 'Started my journey as a software Engineer' },
+  {
+    year: 2022,
+    text: 'software development training At theJitu software company',
+    href: 'https://www.thejitu.com',
+  },
+  { year: 2023, text: 'Worked as a freelance developer' },
+  { year: 2023, text: 'Shared my projects with the world' },
+  // { year: 2021, text: 'Started my own platform' },
 ]
